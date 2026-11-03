@@ -1,0 +1,65 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.kotlin
+
+### IntelliJ IDEA ###
+.idea/
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### OS / local files ###
+.DS_Store
+Thumbs.db
+
+### Environment and secrets ###
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+application-local.properties
+application-dev.properties
+application-prod.properties
+**/application-local.properties
+**/application-dev.properties
+**/application-prod.properties
+
+### Logs and temp ###
+*.log
+*.tmp
+*.bak
+
+### Docker / local data ###
+postgres_data/
+kafka_data/
